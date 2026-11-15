@@ -1,0 +1,9 @@
+soundcard>=0.4.4
+numpy
+scipy
+rapidfuzz
+requests
+anthropic
+playwright
+
+python-dotenv

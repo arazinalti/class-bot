@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+config.json
+browser_profile/
+discover/
+lectures/
+.DS_Store

@@ -1,0 +1,30 @@
+{
+  "personal": {
+    "names": ["Your full name", "Short name"],
+    "keywords": ["exam", "assignment", "grade", "project", "quiz"]
+  },
+  "notifications": {
+    "server": "https://ntfy.sh",
+    "topic": "replace-with-a-private-topic"
+  },
+  "lms": {
+    "base_url": "https://your-lms.example.edu",
+    "course_url_template": "{base_url}/course/view.php?id={}"
+  },
+  "browser": {
+    "channel": "msedge"
+  },
+  "timing": {
+    "join_early_minutes": 10,
+    "end_buffer_minutes": 30,
+    "even_week_saturday": null
+  },
+  "courses": [
+    {"id": 101, "name": "Example course"},
+    {"id": 102, "name": "Another course"}
+  ],
+  "schedule": [
+    {"weekday": "mon", "start": "09:00", "end": "11:00", "course_id": 101, "parity": null},
+    {"weekday": "wed", "start": "14:00", "end": "16:00", "course_id": 102, "parity": "even"}
+  ]
+}
